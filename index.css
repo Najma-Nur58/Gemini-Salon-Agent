@@ -64,7 +64,7 @@ body {
   flex-direction: column;
   gap: 1rem;
   /* Holographic background from user's repo */
-  background-image: url('https://cdn.jsdelivr.net/gh/Najma-Nur58/Gemini-Salon-Agent@main/public/job493-ploy-holographic-19%5B1%5D.jpg');
+  background-image: url('pubic/job493-ploy-holographic-19[1].jpg');
   background-size: cover;
   background-position: center;
 }
