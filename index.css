@@ -6,7 +6,7 @@
   --light-text: #FFFFFF;
   --background-color: #FDF8FA; /* Soft cream/pink background */
   --surface-color: #FFFFFF;
-  --model-message-bg: #F1F1F1;
+  --model-message-bg: #EAE6FF; /* Soft Lavender */
   --border-color: #EAE0E4;
   --font-family-heading: 'Playfair Display', serif;
   --font-family-body: 'Montserrat', sans-serif;
@@ -51,11 +51,10 @@ body {
 
 .logo {
   width: 100%;           /* Makes it stretch full width */
-  max-height: 150px;     /* Optional: controls height */
+  max-height: 200px;     /* Optional: controls height */
   object-fit: cover;     /* Crops it nicely like a cover image */
   border-radius: 10px;   /* Optional: rounded corners */
 }
-
 #chat-history {
   flex-grow: 1;
   overflow-y: auto;
@@ -63,8 +62,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  /* Holographic background from user's repo */
-  background-image: url('pubic/job493-ploy-holographic-19[1].jpg');
+  /* Holographic background from user's repo - CORRECTED URL */
+  background-image: url('https://cdn.jsdelivr.net/gh/Najma-Nur58/Gemini-Salon-Agent@main/pubic/job493-ploy-holographic-19%5B1%5D.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -93,6 +92,7 @@ body {
 .user-message {
   background-color: var(--primary-pink);
   color: var(--light-text);
+  font-weight: 500;
   align-self: flex-end;
   border-bottom-right-radius: 5px;
 }
@@ -105,7 +105,6 @@ body {
 }
 
 .initial-greeting {
-    background-color: transparent;
     align-self: center;
     padding-bottom: 0;
     text-align: center;
