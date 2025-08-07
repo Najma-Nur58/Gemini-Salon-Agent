@@ -13,8 +13,8 @@ const sendButton = chatForm.querySelector('button') as HTMLButtonElement;
 // --- App State ---
 let chat: Chat;
 const HAIR_COLOR_IMAGES = [
-    'pubic/haie4.jpg',
-    'https://i.ibb.co/HhN1W18/hair2.jpg',
+    'haie4.jpg',
+    'pubic/hair1.jpg',
     'https://i.ibb.co/z4V4pFr/hair3.jpg',
     'https://i.ibb.co/V3TjLJN/hair4.jpg',
     'https://i.ibb.co/d2xL5ZN/hair5.jpg',
