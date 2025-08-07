@@ -51,7 +51,7 @@ body {
 
 .logo {
   width: 100%;           /* Makes it stretch full width */
-  max-height: 200px;     /* Optional: controls height */
+  max-height: 150px;     /* Optional: controls height */
   object-fit: cover;     /* Crops it nicely like a cover image */
   border-radius: 10px;   /* Optional: rounded corners */
 }
@@ -63,6 +63,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  /* Holographic background from user's repo */
+  background-image: url('https://cdn.jsdelivr.net/gh/Najma-Nur58/Gemini-Salon-Agent@main/public/job493-ploy-holographic-19%5B1%5D.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 #chat-history::-webkit-scrollbar {
